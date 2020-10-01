@@ -13,6 +13,7 @@
     "prefer-stable":true,
     "require": {
         "php": "^7.2",
+        "alexunisoft/installer-trait": "v1.0-alpha.1",
         "composer/composer": "2.0.0-RC1"
     },
     "require-dev": {
@@ -39,10 +40,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Alexunisoft\\SpecModTemplate\\SpecModTemplateServiceProvider"
+                "Alexunisoft\\PackageName\\PackageServiceProvider"
             ],
             "aliases": {
-                "Alexunisoft": "Alexunisoft\\SpecModTemplate\\SpecModTemplateFacade"
+                "Alexunisoft": ""
             }
         }
     }

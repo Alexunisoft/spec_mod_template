@@ -3,7 +3,6 @@
 namespace Alexunisoft\SpecModTemplate;
 
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Support\Facades\Route;
 
 class SpecModTemplateServiceProvider extends ServiceProvider
 {
@@ -14,7 +13,7 @@ class SpecModTemplateServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-
+        // boot logic here..
     }
 
     /**
@@ -24,6 +23,6 @@ class SpecModTemplateServiceProvider extends ServiceProvider
      */
     public function register()
     {
-
+        // register logic here..
     }
 }
