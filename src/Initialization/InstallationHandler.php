@@ -1,7 +1,7 @@
 <?php /** @noinspection ALL */
 
 
-namespace Aus\Hr\Initialization;
+namespace Alexunisoft\SpecModTemplate\Initialization;
 
 
 use FilesystemIterator;
