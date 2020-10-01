@@ -4,7 +4,7 @@ namespace Alexunisoft\SpecModTemplate;
 
 use Illuminate\Support\ServiceProvider;
 
-class SpecModTemplateServiceProvider extends ServiceProvider
+class PackageServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap any application services.
